@@ -4,7 +4,15 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #fff;
+}
+
+/* Begining of navbar */
+.top-of-header{
+    height: 30px;
+    width: 90%;
+    margin: auto;
 }
 
 a{
@@ -12,10 +20,48 @@ a{
     color: black;
 }
 
-.head-top-list{
-    align-items: center;
-    justify-content: end;
+ul{
+    display: inline-flex;
+    list-style: none;
 }
+
+.top-head{
+    position: absolute;
+    right: 100px;
+}
+
+.header-top-list{
+   margin: 10px;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+}
+
+.header{
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background: #fff;
+    border: none;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
 .logo-img{
-    height: 50px;
+    height: 35px;
+}
+
+.comp-name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 80px;
 }
