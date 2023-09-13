@@ -116,6 +116,26 @@ header{
 .container{
     background: url(images/man-and-woman-collaborating-in-tech-industry.jpg);
     background-size: cover;
-    height: 800px;
+    display: flex;
+    height: 700px;
     width: 100%;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 37.5%;
+    margin-left: 12%;
+}
+
+.make-your-move{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.take-the-first-step{
+    width: 50%;
 }
